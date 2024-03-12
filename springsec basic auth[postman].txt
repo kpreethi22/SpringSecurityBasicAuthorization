@@ -1,0 +1,14 @@
+http://localhost:8082/api/posts       post method
+authorization  -basic auth   
+username   pretty
+password   96pretty
+this credential is asper mention in the appln.prprty file
+
+{
+
+"title": "Carrot",
+        "description": "Orange",
+        "content": "Crunchy"
+}
+if authenticated and if this user is eligible for authorization
+response will be "201 created"
